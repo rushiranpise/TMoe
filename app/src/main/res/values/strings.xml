@@ -73,6 +73,9 @@
     <string name="HidePremiumStickerSetTab">Hide Premium Sticker Tab</string>
     <string name="HidePremiumStickerSetTabDesc">For premium users only. Remove the premium sticker set tab from the sticker panel.</string>
     <string name="FakePremium">Fake Premium</string>
+    <string name="AntiDeleteMsg">Anti delete message</string>
+    <string name="AntiDeleteMsgDesc">The deleted messages will be stored in ctx.filesDir/TMoe_deleted_messages.db. If the \"Show Message ID\" option is enabled, it will prompt that the message has been deleted when loading the messages.</string>
+    <string name="deleted">deleted</string>
     <string name="ViewChannel">View Channel</string>
     <string name="ForwardsRestrictedInfoGroup">Сopying and forwarding is not allowed in this group.</string>
     <string name="UnsupportedOperation">Unsupported operation.</string>

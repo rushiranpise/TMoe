@@ -33,6 +33,7 @@ import cc.ioctl.tmoe.hook.func.ShowMsgId;
 import cc.ioctl.tmoe.hook.func.TgnetLogControlStartupApplyHelper;
 import cc.ioctl.tmoe.hook.func.ViewTopicAsMsgByDefault;
 import cc.ioctl.tmoe.hook.func.FakePremium;
+import cc.ioctl.tmoe.hook.func.AntiDeleteMsg;
 import cc.ioctl.tmoe.util.Utils;
 
 /**
@@ -93,6 +94,7 @@ public class DynamicHookInit {
                     ViewTopicAsMsgByDefault.INSTANCE,
                     HidePremiumStickerSetTab.INSTANCE,
                     FakePremium.INSTANCE,
+                    AntiDeleteMsg.INSTANCE,
             };
         }
         return sAllFunctionHooks;

@@ -117,6 +117,9 @@ class SettingsFragment : BaseHierarchyFragment() {
             functionSwitch(
                 FakePremium, "FakePremium", R.string.FakePremium
             )
+            functionSwitch(
+                AntiDeleteMsg.INSTANCE, "AntiDeleteMsg", R.string.AntiDeleteMsg, "AntiDeleteMsgDesc", R.string.AntiDeleteMsgDesc
+            )
         }
         category("LostMsgMitigation", R.string.LostMsgMitigation) {
             functionSwitch(
