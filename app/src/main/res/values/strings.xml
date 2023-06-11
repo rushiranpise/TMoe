@@ -75,7 +75,7 @@
     <string name="FakePremium">Fake Premium</string>
     <string name="AntiDeleteMsg">Anti delete message</string>
     <string name="AntiDeleteMsgDesc">The deleted messages will be stored in ctx.filesDir/TMoe_deleted_messages.db. If the \"Show Message ID\" option is enabled, it will prompt that the message has been deleted when loading the messages.</string>
-    <string name="deleted">deleted</string>
+    <string name="deleted">Deleted This Message ⛔</string>
     <string name="ViewChannel">View Channel</string>
     <string name="ForwardsRestrictedInfoGroup">Сopying and forwarding is not allowed in this group.</string>
     <string name="UnsupportedOperation">Unsupported operation.</string>
