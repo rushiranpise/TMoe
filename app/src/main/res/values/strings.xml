@@ -72,6 +72,7 @@
     <string name="ViewTopicAsMsgByDefaultDesc">\"View as Group\" by default in topic chats</string>
     <string name="HidePremiumStickerSetTab">Hide Premium Sticker Tab</string>
     <string name="HidePremiumStickerSetTabDesc">For premium users only. Remove the premium sticker set tab from the sticker panel.</string>
+    <string name="FakePremium">Fake Premium</string>
     <string name="ViewChannel">View Channel</string>
     <string name="ForwardsRestrictedInfoGroup">Сopying and forwarding is not allowed in this group.</string>
     <string name="UnsupportedOperation">Unsupported operation.</string>

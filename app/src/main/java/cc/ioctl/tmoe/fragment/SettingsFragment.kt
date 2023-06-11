@@ -114,6 +114,9 @@ class SettingsFragment : BaseHierarchyFragment() {
                 HidePremiumStickerSetTab, "HidePremiumStickerSetTab", R.string.HidePremiumStickerSetTab,
                 "HidePremiumStickerSetTabDesc", R.string.HidePremiumStickerSetTabDesc
             )
+            functionSwitch(
+                FakePremium, "FakePremium", R.string.FakePremium
+            )
         }
         category("LostMsgMitigation", R.string.LostMsgMitigation) {
             functionSwitch(
