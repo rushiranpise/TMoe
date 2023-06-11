@@ -118,6 +118,9 @@ class SettingsFragment : BaseHierarchyFragment() {
                 FakePremium, "FakePremium", R.string.FakePremium
             )
             functionSwitch(
+                MaxAccounts, "MaxAccounts", R.string.MaxAccounts
+            )
+            functionSwitch(
                 AntiDeleteMsg.INSTANCE, "AntiDeleteMsg", R.string.AntiDeleteMsg, "AntiDeleteMsgDesc", R.string.AntiDeleteMsgDesc
             )
         }
