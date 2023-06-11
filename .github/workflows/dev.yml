@@ -52,12 +52,18 @@ jobs:
 
       - name: Build with Gradle
         run: ./gradlew :app:assemble
+
+      - name: Retrieve version
+        run: echo VERSION=$(echo ${{ github.event.head_commit.id }} | head -c 7) >> $GITHUB_ENV  
+
+      - name: Rename
+        run: mv ${{ github.workspace }}/app/build/outputs/apk/debug/app-debug.apk ${{ github.workspace }}/app/build/outputs/apk/debug/TMOE-${{ env.VERSION }}.apk    
         
       - name: Upload Artifacts
         uses: actions/upload-artifact@v2
         # don't upload the artifacts if it's a pull request
         if: ${{ !github.event.pull_request }}
         with:
-          path: './app/build/outputs/*'
-          name: build_output_${{ github.event.head_commit.id }}.zip
+          path: ${{ github.workspace }}/app/build/outputs/apk/debug/TMOE-${{ env.VERSION }}.apk
+          name: TMOE-${{ env.VERSION }}.zip
 
