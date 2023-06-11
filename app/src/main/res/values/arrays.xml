@@ -1,32 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="xposedscope">
-        <item>org.telegram.messenger</item>
-        <item>org.telegram.messenger.beta</item>
-        <item>org.telegram.plus</item>
-        <item>nekox.messenger</item>
-        <item>com.jasonkhew96.pigeongram</item>
         <item>app.nicegram</item>
-        <item>xyz.nextalone.nagram</item>
-        <item>xyz.nextalone.nnngram</item>
-        <item>org.telegram.messenger.web</item>
+        <item>com.blxueya.gugugram</item>
         <item>com.cool2645.nekolite</item>
+        <item>com.evildayz.code.telegraher</item>
+        <item>com.exteragram.messenger.beta</item>
+        <item>com.exteragram.messenger</item>
         <item>com.iMe.android</item>
-        <item>org.telegram.BifToGram</item>
-        <item>ua.itaysonlab.messenger</item>
-        <item>org.forkclient.messenger.beta</item>
-        <item>org.aka.messenger</item>
+        <item>com.jasonkhew96.pigeongram</item>
         <item>ellipi.messenger</item>
-        <item>me.luvletter.nekox</item>
-        <item>org.nift4.catox</item>
-        <item>icu.ketal.yunigram</item>
-        <item>icu.ketal.yunigram.lspatch</item>
+        <item>ir.ilmili.telegraph</item>
+        <item>it.owlgram.android</item>
+        <item>me.ninjagram.messenger</item>
+        <item>nekox.messenger</item>
         <item>icu.ketal.yunigram.beta</item>
         <item>icu.ketal.yunigram.lspatch.beta</item>
+        <item>icu.ketal.yunigram.lspatch</item>
+        <item>icu.ketal.yunigram</item>
+        <item>me.luvletter.nekox</item>
+        <item>nekox.messenger</item>
+        <item>org.aka.messenger</item>
+        <item>org.forkclient.messenger.beta</item>
+        <item>org.forkclient.messenger</item>
         <item>org.forkgram.messenger</item>
-        <item>com.blxueya.gugugram</item>
-        <item>com.blxueya.gugugramx</item>
-        <item>com.evildayz.code.telegraher</item>
-        <item>com.exteragram.messenger</item>
+        <item>org.nift4.catox</item>
+        <item>org.ninjagram.messenger</item>
+        <item>org.telegram.BifToGram</item>
+        <item>org.telegram.mdgram</item>
+        <item>org.telegram.mdgramyou</item>
+        <item>org.telegram.messenger.beta</item>
+        <item>org.telegram.messenger.web</item>
+        <item>org.telegram.messenger</item>
+        <item>org.telegram.plus</item>
+        <item>top.qwq2333.nullgram</item>
+        <item>tw.nekomimi.nekogram</item>
+        <item>ua.itaysonlab.messenger</item>
+        <item>xyz.nextalone.nnngram</item>
     </string-array>
 </resources>
