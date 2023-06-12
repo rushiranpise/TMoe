@@ -38,6 +38,7 @@ public class HookEntry implements IXposedHookLoadPackage, IXposedHookZygoteInit 
             "org.forkgram.messenger",
             "org.nift4.catox",
             "org.ninjagram.messenger",
+            "com.radolyn.ayugram",
             "org.telegram.BifToGram",
             "org.telegram.mdgram",
             "org.telegram.mdgramyou",
