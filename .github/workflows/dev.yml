@@ -71,9 +71,10 @@ jobs:
           name: TMOE-${{ env.VERSION }}.zip
 
       - name: Create GitHub Release
-        id: create_release
         uses: softprops/action-gh-release@v1
         with:
           files: ${{ github.workspace }}/app/build/outputs/apk/debug/TMOE-${{ env.VERSION }}.apk
+          tag_name: v${{ env.VERSION }}
+          name: TMoe ${{ env.VERSION }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
